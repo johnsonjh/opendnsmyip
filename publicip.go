@@ -26,7 +26,6 @@ package publicip
 
 import (
 	"fmt"
-	"log"
 
 	"github.com/miekg/dns"
 )
@@ -45,17 +44,15 @@ func GetIP() (string, error) {
 }
 
 func doDNSLookup(config dns.ClientConfig, client *dns.Client, message *dns.Msg) (string, error) {
-	var err error
+	err := fmt.Errorf("Error querying servers at OpenDNS")
 	for _, server := range config.Servers {
 		serverAddr := fmt.Sprintf("%s:%s", server, config.Port)
 		response, _, cliErr := client.Exchange(message, serverAddr)
 		if cliErr != nil {
-			log.Printf("Error on DNS lookup: %s", cliErr)
-			return "", cliErr
+			return "", fmt.Errorf("Error on DNS lookup: %w", cliErr)
 		}
 		if response.Rcode != dns.RcodeSuccess {
-			err = fmt.Errorf("DNS call not successful.  Response code: %d", response.Rcode)
-			log.Printf(err.Error())
+			err = fmt.Errorf("DNS call not successful. Response code: %d", response.Rcode)
 		} else {
 			for _, answer := range response.Answer {
 				if aRecord, ok := answer.(*dns.A); ok {
