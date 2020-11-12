@@ -1,3 +1,3 @@
-package: github.com/polera/publicip
+package: github.com/dikman/publicip
 import:
 - package: github.com/miekg/dns

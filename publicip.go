@@ -8,7 +8,7 @@ Example:
 
 	import (
 	"fmt"
-	"github.com/polera/publicip"
+	"github.com/dikman/publicip"
 	)
 
 	func main() {
