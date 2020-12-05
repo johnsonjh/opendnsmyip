@@ -3,9 +3,9 @@
 A Go package that returns the public-facing IPv4 address of the client
 by querying the Cisco OpenDNS servers.
 
-[![Codacy Badge](https://api.codacy.com/project/badge/Grade/c756d556a38842a5b82265e5f1bebcc1)](https://app.codacy.com/gh/johnsonjh/opendnsmyip?utm_source=github.com&utm_medium=referral&utm_content=johnsonjh/opendnsmyip&utm_campaign=Badge_Grade)
 [![License](http://img.shields.io/badge/license-mit-blue.svg)](https://raw.githubusercontent.com/johnsonjh/opendnsmyip/master/LICENSE)
 [![GoReport](https://goreportcard.com/badge/github.com/johnsonjh/opendnsmyip)](https://goreportcard.com/report/github.com/johnsonjh/opendnsmyip)
+[![CodacyBadge](https://api.codacy.com/project/badge/Grade/c756d556a38842a5b82265e5f1bebcc1)](https://app.codacy.com/gh/johnsonjh/opendnsmyip?utm_source=github.com&utm_medium=referral&utm_content=johnsonjh/opendnsmyip&utm_campaign=Badge_Grade)
 
 ## Availability
 
