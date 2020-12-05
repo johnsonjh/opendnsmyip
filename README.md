@@ -1,53 +1,41 @@
-#publicip
+# go-opendns-myip
 
-This package returns the public facing IP address of the calling client (a la https://icanhazip.com, but from Go!)
+This package returns the public-facing IPv4 address of the calling client
 
- [![GoDoc](http://img.shields.io/badge/go-documentation-blue.svg)](http://godoc.org/github.com/dikman/publicip) [![License](http://img.shields.io/badge/license-mit-blue.svg)](https://raw.githubusercontent.com/dikman/publicip/master/LICENSE) [![Go Report Card](https://goreportcard.com/badge/github.com/dikman/publicip)](https://goreportcard.com/report/github.com/dikman/publicip) [![codecov](https://codecov.io/gh/dikman/publicip/branch/master/graph/badge.svg)](https://codecov.io/gh/dikman/publicip)
+[![License](http://img.shields.io/badge/license-mit-blue.svg)](https://raw.githubusercontent.com/johnsonjh/opendnsmyip/master/LICENSE)
+[![GoReport](https://goreportcard.com/badge/github.com/johnsonjh/opendnsmyip)](https://goreportcard.com/report/github.com/johnsonjh/opendnsmyip)
 
-Changes
+
+Original Authors
 ==
-Removed output to a log directly from this package (Dmitriy Kuznetsov <dmitriy.v.kuznetsov@gmail.com>).
+* [James Polera](https://github.com/polera/publicip) <james@uncryptic.com>
+* [Dmitriy Kuznetsov](https://github.com/Dikman/publicip) <dmitriy.v.kuznetsov@gmail.com>
 
-Author of the original package
-==
-James Polera <james@uncryptic.com>
-
-Dependencies
-==
-publicip uses Glide for dependency management.  After cloning this package, run:
-```bash
-glide up
-```
 
 Credits
 ==
-This package was inspired by both:
+This package was inspired:
 
-[public-ip (nodejs)](https://github.com/sindresorhus/public-ip/blob/master/index.js)
+* [public-ip (nodejs)](https://github.com/sindresorhus/public-ip/blob/master/index.js)
+* [OpenDNS::MyIP (Perl)](https://metacpan.org/pod/OpenDNS::MyIP)
 
-[OpenDNS::MyIP (Perl)](https://metacpan.org/pod/OpenDNS::MyIP)
-
-Example
+Usage
 ==
 ```go
 package main
 
 import (
-  "fmt"
-  "github.com/dikman/publicip"
+	"fmt"
+	myip "github.com/johnsonjh/opendnsmyip"
 )
 
 func main() {
-
-  myIpAddr, err := publicip.GetIP()
-  if err != nil {
-    fmt.Printf("Error getting IP address: %s\n", err)
-  } else {
-    fmt.Printf("Public IP address is: %s", myIpAddr)
-  }
-
+	myIpAddr, err := myip.GetIP()
+	if err != nil {
+		fmt.Errorf("Error getting IPv4 address: %s\n", err)
+	} else {
+		fmt.Printf("Public IPv4 address is: %s", myIpAddr)
+	}
 }
-
 ```
-
 
