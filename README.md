@@ -1,13 +1,16 @@
-# go-opendns-myip
+# opendnsmyip
 
-This package returns the public-facing IPv4 address of the calling client
+A Go package that returns the public-facing IPv4 address of the client
+by querying the Cisco OpenDNS servers.
 
 [![License](http://img.shields.io/badge/license-mit-blue.svg)](https://raw.githubusercontent.com/johnsonjh/opendnsmyip/master/LICENSE)
 [![GoReport](https://goreportcard.com/badge/github.com/johnsonjh/opendnsmyip)](https://goreportcard.com/report/github.com/johnsonjh/opendnsmyip)
 
+
 ## Availability
-* https://gitlab.gridfinity.com/jeff/go-opendns-myip
-* https://github.com/johnsonjh/opendnsmyip
+
+* [Gridfinity GitLab](https://gitlab.gridfinity.com/jeff/go-opendns-myip)
+* [GitHub](https://github.com/johnsonjh/opendnsmyip)
 
 
 ## Original Authors
