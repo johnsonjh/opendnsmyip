@@ -5,6 +5,10 @@ This package returns the public-facing IPv4 address of the calling client
 [![License](http://img.shields.io/badge/license-mit-blue.svg)](https://raw.githubusercontent.com/johnsonjh/opendnsmyip/master/LICENSE)
 [![GoReport](https://goreportcard.com/badge/github.com/johnsonjh/opendnsmyip)](https://goreportcard.com/report/github.com/johnsonjh/opendnsmyip)
 
+## Availability
+* https://gitlab.gridfinity.com/jeff/go-opendns-myip
+* https://github.com/johnsonjh/opendnsmyip
+
 
 ## Original Authors
 
