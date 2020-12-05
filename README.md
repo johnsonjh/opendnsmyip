@@ -6,21 +6,22 @@ This package returns the public-facing IPv4 address of the calling client
 [![GoReport](https://goreportcard.com/badge/github.com/johnsonjh/opendnsmyip)](https://goreportcard.com/report/github.com/johnsonjh/opendnsmyip)
 
 
-Original Authors
-==
+## Original Authors
+
 * [James Polera](https://github.com/polera/publicip) <james@uncryptic.com>
 * [Dmitriy Kuznetsov](https://github.com/Dikman/publicip) <dmitriy.v.kuznetsov@gmail.com>
 
 
-Credits
-==
-This package was inspired:
+## Credits
+
+This package was inspired by:
 
 * [public-ip (nodejs)](https://github.com/sindresorhus/public-ip/blob/master/index.js)
 * [OpenDNS::MyIP (Perl)](https://metacpan.org/pod/OpenDNS::MyIP)
 
-Usage
-==
+
+## Usage
+
 ```go
 package main
 
