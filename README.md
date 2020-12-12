@@ -16,8 +16,8 @@ by querying the Cisco OpenDNS servers.
 
 ## Original Authors
 
-* [James Polera](https://github.com/polera/publicip) <james@uncryptic.com>
-* [Dmitriy Kuznetsov](https://github.com/Dikman/publicip) <dmitriy.v.kuznetsov@gmail.com>
+* [James Polera](https://github.com/polera/publicip) \<james@uncryptic.com\>
+* [Dmitriy Kuznetsov](https://github.com/Dikman/publicip) \<dmitriy.v.kuznetsov@gmail.com\>
 
 ## Credits
 
@@ -39,7 +39,7 @@ import (
 func main() {
  myIpAddr, err := myip.GetIP()
  if err != nil {
-  fmt.Errorf("Error getting IPv4 address: %s\n", err)
+  fmt.Errorf("Error getting IPv4 address: %v", err)
  } else {
   fmt.Printf("Public IPv4 address is: %s", myIpAddr)
  }
