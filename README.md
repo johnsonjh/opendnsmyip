@@ -11,7 +11,6 @@ by querying the Cisco OpenDNS servers.
 [![GitHubCodeSize](https://img.shields.io/github/languages/code-size/johnsonjh/opendnsmyip.svg)](https://github.com/johnsonjh/opendnsmyip)
 [![CoverageStatus](https://coveralls.io/repos/github/johnsonjh/opendnsmyip/badge.svg?branch=master)](https://coveralls.io/github/johnsonjh/opendnsmyip?branch=master)
 [![CodacyBadge](https://api.codacy.com/project/badge/Grade/c756d556a38842a5b82265e5f1bebcc1)](https://app.codacy.com/gh/johnsonjh/opendnsmyip?utm_source=github.com&utm_medium=referral&utm_content=johnsonjh/opendnsmyip&utm_campaign=Badge_Grade)
-[![LgtmAlerts](https://img.shields.io/lgtm/alerts/g/johnsonjh/opendnsmyip.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/johnsonjh/opendnsmyip/alerts/)
 [![CodeBeat](https://codebeat.co/badges/f148c0a4-604b-449e-b450-02fb5074a131)](https://codebeat.co/projects/github-com-johnsonjh-opendnsmyip-master)
 [![CodeClimateMaintainability](https://api.codeclimate.com/v1/badges/d8e0a5a40404d2153688/maintainability)](https://codeclimate.com/github/johnsonjh/opendnsmyip/maintainability)
 [![TickgitTODOs](https://img.shields.io/endpoint?url=https://api.tickgit.com/badge?repo=github.com/johnsonjh/opendnsmyip)](https://www.tickgit.com/browse?repo=github.com/johnsonjh/opendnsmyip)
