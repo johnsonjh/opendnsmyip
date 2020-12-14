@@ -15,18 +15,15 @@ by querying the Cisco OpenDNS servers.
 [![CodeClimateMaintainability](https://api.codeclimate.com/v1/badges/d8e0a5a40404d2153688/maintainability)](https://codeclimate.com/github/johnsonjh/opendnsmyip/maintainability)
 [![TickgitTODOs](https://img.shields.io/endpoint?url=https://api.tickgit.com/badge?repo=github.com/johnsonjh/opendnsmyip)](https://www.tickgit.com/browse?repo=github.com/johnsonjh/opendnsmyip)
 
-
 ## Availability
 
 * [Gridfinity GitLab](https://gitlab.gridfinity.com/jeff/go-opendns-myip)
 * [GitHub](https://github.com/johnsonjh/opendnsmyip)
 
-
 ## Original Authors
 
 * [James Polera](https://github.com/polera/publicip) \<james@uncryptic.com\>
 * [Dmitriy Kuznetsov](https://github.com/Dikman/publicip) \<dmitriy.v.kuznetsov@gmail.com\>
-
 
 ## Credits
 
@@ -34,7 +31,6 @@ This package was inspired by:
 
 * [public-ip (nodejs)](https://github.com/sindresorhus/public-ip/blob/master/index.js)
 * [OpenDNS::MyIP (Perl)](https://metacpan.org/pod/OpenDNS::MyIP)
-
 
 ## Usage
 
@@ -55,4 +51,3 @@ func main() {
  }
 }
 ```
-
