@@ -18,20 +18,20 @@ by querying the Cisco OpenDNS servers.
 
 ## Availability
 
-* [Gridfinity GitLab](https://gitlab.gridfinity.com/jeff/go-opendns-myip)
-* [GitHub](https://github.com/johnsonjh/opendnsmyip)
+- [Gridfinity GitLab](https://gitlab.gridfinity.com/jeff/go-opendns-myip)
+- [GitHub](https://github.com/johnsonjh/opendnsmyip)
 
 ## Original Authors
 
-* [James Polera](https://github.com/polera/publicip) \<james@uncryptic.com\>
-* [Dmitriy Kuznetsov](https://github.com/Dikman/publicip) \<dmitriy.v.kuznetsov@gmail.com\>
+- [James Polera](https://github.com/polera/publicip) \<james@uncryptic.com\>
+- [Dmitriy Kuznetsov](https://github.com/Dikman/publicip) \<dmitriy.v.kuznetsov@gmail.com\>
 
 ## Credits
 
 This package was inspired by:
 
-* [public-ip (nodejs)](https://github.com/sindresorhus/public-ip/blob/master/index.js)
-* [OpenDNS::MyIP (Perl)](https://metacpan.org/pod/OpenDNS::MyIP)
+- [public-ip (nodejs)](https://github.com/sindresorhus/public-ip/blob/master/index.js)
+- [OpenDNS::MyIP (Perl)](https://metacpan.org/pod/OpenDNS::MyIP)
 
 ## Usage
 
