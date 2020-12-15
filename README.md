@@ -7,8 +7,8 @@ by querying the Cisco OpenDNS servers.
 [![GoVersion](https://img.shields.io/github/go-mod/go-version/johnsonjh/opendnsmyip.svg)](https://github.com/johnsonjh/opendnsmyip/blob/master/go.mod)
 [![PkgGoDev](https://pkg.go.dev/badge/github.com/johnsonjh/opendnsmyip)](https://pkg.go.dev/github.com/johnsonjh/opendnsmyip)
 [![GoReportCard](https://goreportcard.com/badge/github.com/johnsonjh/opendnsmyip)](https://goreportcard.com/report/github.com/johnsonjh/opendnsmyip)
-[![GitHubRelease](https://img.shields.io/github/release/johnsonjh/goc25519sm.svg)](https://github.com/johnsonjh/goc25519sm/releases/)
-[![GitHubTag](https://img.shields.io/github/tag/johnsonjh/goc25519sm.svg)](https://github.com/johnsonjh/goc25519sm/tags/)
+[![GitHubRelease](https://img.shields.io/github/release/johnsonjh/opendnsmyip.svg)](https://github.com/johnsonjh/opendnsmyip/releases/)
+[![GitHubTag](https://img.shields.io/github/tag/johnsonjh/opendnsmyip.svg)](https://github.com/johnsonjh/opendnsmyip/tags/)
 [![LocCount](https://img.shields.io/tokei/lines/github/johnsonjh/opendnsmyip.svg)](https://github.com/XAMPPRocky/tokei)
 [![GitHubCodeSize](https://img.shields.io/github/languages/code-size/johnsonjh/opendnsmyip.svg)](https://github.com/johnsonjh/opendnsmyip)
 [![CoverageStatus](https://coveralls.io/repos/github/johnsonjh/opendnsmyip/badge.svg?branch=master)](https://coveralls.io/github/johnsonjh/opendnsmyip?branch=master)
@@ -37,7 +37,7 @@ by querying the Cisco OpenDNS servers.
 This package was inspired by:
 
 - [public-ip (nodejs)](https://github.com/sindresorhus/public-ip/blob/master/index.js)
-- [OpenDNS::MyIP (Perl)](https://metacpan.org/pod/OpenDNS::MyIP)
+- [OpenDNS::MyIP (Perl 5)](https://metacpan.org/pod/OpenDNS::MyIP)
 
 ## Usage
 
