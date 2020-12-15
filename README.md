@@ -32,6 +32,11 @@ by querying the Cisco OpenDNS servers.
 - [James Polera](https://github.com/polera/publicip) \<james@uncryptic.com\>
 - [Dmitriy Kuznetsov](https://github.com/Dikman/publicip) \<dmitriy.v.kuznetsov@gmail.com\>
 
+## Coverage Reports
+
+- [GoCov](https://pktdist.gridfinity.com/coverage/opendnsmyip/)
+- [Coveralls](https://coveralls.io/github/johnsonjh/opendnsmyip)
+
 ## Credits
 
 This package was inspired by:
