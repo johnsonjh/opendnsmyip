@@ -21,6 +21,10 @@ by querying the Cisco OpenDNS servers.
 - [Gridfinity GitLab](https://gitlab.gridfinity.com/jeff/go-opendns-myip)
 - [GitHub](https://github.com/johnsonjh/opendnsmyip)
 
+## Security
+
+- [Security Policy](https://github.com/johnsonjh/opendnsmyip/blob/master/SECURITY.md)
+
 ## Original Authors
 
 - [James Polera](https://github.com/polera/publicip) \<james@uncryptic.com\>
