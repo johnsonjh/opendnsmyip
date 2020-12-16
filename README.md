@@ -30,8 +30,8 @@ by querying the Cisco OpenDNS servers.
 
 ## Original Authors
 
-- [James Polera](https://github.com/polera/publicip) <mailto:james@uncryptic.com>
-- [Dmitriy Kuznetsov](https://github.com/Dikman/publicip) <mailto:dmitriy.v.kuznetsov@gmail.com>
+- [James Polera](https://github.com/polera/publicip) \<[james@uncryptic.com](mailto:james@uncryptic.com)\>
+- [Dmitriy Kuznetsov](https://github.com/Dikman/publicip) \<[dmitriy.v.kuznetsov@gmail.com](mailto:dmitriy.v.kuznetsov@gmail.com)\>
 
 ## Coverage Reports
 
