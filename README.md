@@ -17,7 +17,7 @@ by querying the Cisco OpenDNS servers.
 [![CodeClimateMaintainability](https://api.codeclimate.com/v1/badges/d8e0a5a40404d2153688/maintainability)](https://codeclimate.com/github/johnsonjh/opendnsmyip/maintainability)
 [![TickgitTODOs](https://img.shields.io/endpoint?url=https://api.tickgit.com/badge?repo=github.com/johnsonjh/opendnsmyip)](https://www.tickgit.com/browse?repo=github.com/johnsonjh/opendnsmyip)
 [![DeepSource](https://deepsource.io/gh/johnsonjh/opendnsmyip.svg/?label=active+issues)](https://deepsource.io/gh/johnsonjh/opendnsmyip/?ref=repository-badge)
-[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fjohnsonjh%2Fopendnsmyip.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2Fjohnsonjh%2Fopendnsmyip?ref=badge_shield)
+[![FOSSAStatus](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fjohnsonjh%2Fopendnsmyip.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2Fjohnsonjh%2Fopendnsmyip?ref=badge_shield)
 
 ## Availability
 
@@ -67,4 +67,7 @@ func main() {
 
 
 ## License
-[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fjohnsonjh%2Fopendnsmyip.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2Fjohnsonjh%2Fopendnsmyip?ref=badge_large)
+
+- [MIT License](https://tldrlegal.com/license/mit-license)
+
+[![FOSSALargeStatus](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fjohnsonjh%2Fopendnsmyip.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2Fjohnsonjh%2Fopendnsmyip?ref=badge_large)
