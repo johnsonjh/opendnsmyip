@@ -20,10 +20,12 @@ by querying the Cisco OpenDNS servers.
 [![FOSSAStatus](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fjohnsonjh%2Fopendnsmyip.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2Fjohnsonjh%2Fopendnsmyip?ref=badge_shield)
 
 ## Availability
+
 - [Gridfinity GitLab](https://gitlab.gridfinity.com/jeff/go-opendns-myip)
 - [GitHub](https://github.com/johnsonjh/opendnsmyip)
 
 ## Security
+
 - [Security Policy](https://github.com/johnsonjh/opendnsmyip/blob/master/SECURITY.md)
 
 ## Original Authors
@@ -32,20 +34,24 @@ by querying the Cisco OpenDNS servers.
 - [Dmitriy Kuznetsov](https://github.com/Dikman/publicip) <mailto:dmitriy.v.kuznetsov@gmail.com>
 
 ## Coverage Reports
+
 - [GoCov](https://pktdist.gridfinity.com/coverage/opendnsmyip/)
 - [Coveralls](https://coveralls.io/github/johnsonjh/opendnsmyip)
 
 ## Credits
 
 This package was inspired by:
+
 - [public-ip (nodejs)](https://github.com/sindresorhus/public-ip/blob/master/index.js)
 - [OpenDNS::MyIP (Perl 5)](https://metacpan.org/pod/OpenDNS::MyIP)
 
 ## License
+
 - [MIT License](https://tldrlegal.com/license/mit-license)
 - [![FOSSASmallStatus](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fjohnsonjh%2Fopendnsmyip.svg?type=small)](https://app.fossa.com/projects/git%2Bgithub.com%2Fjohnsonjh%2Fopendnsmyip?ref=badge_small)
 
 ## Usage
+
 ```go
 package main
 
