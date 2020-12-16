@@ -65,7 +65,6 @@ func main() {
 }
 ```
 
-
 ## License
 
 - [MIT License](https://tldrlegal.com/license/mit-license)
