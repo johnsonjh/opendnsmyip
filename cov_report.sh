@@ -43,7 +43,6 @@ trap 'global_trap; trap - INT; kill -INT $$; sleep 1; trap - TERM; kill -TERM $$
 trap '' EMT IO LOST SYS URG >/dev/null 2>&1 ||
 	true :
 
-set -o pipefail >/dev/null 2>&1
 if [ ! -f "./.opendnsmyip_root" ]; then
 	printf '\n%s\n' "You must run this tool from the root directory" >&2
 	printf '%s\n' "of your local opendnsmyip source tree or checkout." >&2
