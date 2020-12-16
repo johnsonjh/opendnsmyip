@@ -69,7 +69,7 @@ windows job:
         echo "Build completed successfully - running tests; coverage and race detector enabled"
         echo "TODO: Port of 'cov_report.sh' to PowerShell"
     - $env:CGO_ENABLED="1"
-    - go test -v -cover -covermode="atomic" -race -tags="osnetgo,osusergo,leaktest,purego" -count="1" -cpu="1" -bench="." -parallel="1" .\...
+    - go test -v -a -cover -covermode="atomic" -race -tags="osnetgo,osusergo,leaktest,purego" -count="1" -cpu="1" -bench="." -parallel="1" .\...
 ###################### End Windows Build + Test
 
 ###################### Begin Linux
@@ -119,14 +119,14 @@ macos job:
     stage: all
     script:
     - | 
-        # update & upgrade homebrew
+        # update tools
         bash --norc --noprofile --posix -c "brew  update >/dev/null 2>&1 || true :;" >/dev/null 2>&1 || true :;
         bash --norc --noprofile --posix -c "brew upgrade >/dev/null 2>&1 || true :;" >/dev/null 2>&1 || true :;
     - *scriptCommon
     - if type brew >/dev/null 2>&1; then export HOMEBREW_PREFIX=$(brew --prefix 2>/dev/null); for dir in ${HOMEBREW_PREFIX:?}/opt/*/libexec/gnubin; do export PATH="${dir:?}:${PATH:?}"; done; fi
     - export PATH="/usr/local/opt/gcc/bin:${PATH:?}"
     - go env -w GO111MODULE=on && export "${GO111MODULE:?}"
-    - go env -w GOPROXY="https://goproxy.io,https://proxy.golang.org,direct" && export "${GOPROXY:?}"
+    - export GOPROXY="https://goproxy.io,https://proxy.golang.org,direct" && go env -w GOPROXY="${GOPROXY:?}"
     - export PRIVPATH=$(mktemp -d "${HOME:?}/.XXXXXXXXXXXXXXXX")
     - export NEW_GOPATH=$(mktemp -d "${PRIVPATH:?}/XXXXXXXXXXXXXXXX")
     - export NEW_GOCACHE=$(mktemp -d "${PRIVPATH:?}/XXXXXXXXXXXXXXXX")
