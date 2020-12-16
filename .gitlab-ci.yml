@@ -125,7 +125,7 @@ macos job:
     - *scriptCommon
     - if type brew >/dev/null 2>&1; then export HOMEBREW_PREFIX=$(brew --prefix 2>/dev/null); for dir in ${HOMEBREW_PREFIX:?}/opt/*/libexec/gnubin; do export PATH="${dir:?}:${PATH:?}"; done; fi
     - export PATH="/usr/local/opt/gcc/bin:${PATH:?}"
-    - go env -w GO111MODULE=on && export "${GO111MODULE:?}"
+    - go env -w GO111MODULE=on && export GO111MODULE=on
     - export GOPROXY="https://goproxy.io,https://proxy.golang.org,direct" && go env -w GOPROXY="${GOPROXY:?}"
     - export PRIVPATH=$(mktemp -d "${HOME:?}/.XXXXXXXXXXXXXXXX")
     - export NEW_GOPATH=$(mktemp -d "${PRIVPATH:?}/XXXXXXXXXXXXXXXX")
