@@ -56,16 +56,17 @@ This package was inspired by:
 package main
 
 import (
- "fmt"
- myip "github.com/johnsonjh/opendnsmyip"
+        "fmt"
+
+        myip "github.com/johnsonjh/opendnsmyip"
 )
 
 func main() {
- myIpAddr, err := myip.GetIP()
- if err != nil {
-  fmt.Errorf("Error getting IPv4 address: %v", err)
- } else {
-  fmt.Printf("Public IPv4 address is: %s", myIpAddr)
- }
+        myIpAddr, err := myip.GetIP()
+        if err != nil {
+                fmt.Errorf("Error getting IPv4 address: %v", err)
+        } else {
+                fmt.Printf("Public IPv4 address is: %s", myIpAddr)
+        }
 }
 ```
