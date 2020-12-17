@@ -1,3 +1,10 @@
+// Copyright (c) 2020 Jeffrey H. Johnson.
+// Copyright (c) 2020 Gridfinity, LLC.
+// Copyright (c) 2020 Dmitriy Kuznetsov.
+// Copyright (c) 2016 James Polera.
+// Use of this source code is governed by the MIT
+// license that can be found in the LICENSE file.
+
 package opendnsmyip_test
 
 import (

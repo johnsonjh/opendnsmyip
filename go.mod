@@ -8,6 +8,7 @@ require (
 	github.com/miekg/dns v1.1.36-0.20201106173118-428cef31872d
 	github.com/stretchr/testify v1.6.2-0.20201103103935-92707c0b2d50 // indirect
 	go.uber.org/goleak v1.1.11-0.20200902203756-89d54f0adef2
+	go4.org v0.0.0-20201209231011-d4a079459e60
 	golang.org/x/crypto v0.0.0-20201217014255-9d1352758620 // indirect
 	golang.org/x/lint v0.0.0-20201208152925-83fdc39ff7b5 // indirect
 	golang.org/x/net v0.0.0-20201216054612-986b41b23924 // indirect

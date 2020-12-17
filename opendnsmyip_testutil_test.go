@@ -1,3 +1,4 @@
+// Copyright 2020 Jeffrey H. Johnson.
 // Copyright 2020 Gridfinity, LLC.
 // Copyright 2019 The Go Authors.
 // All rights reserved.
