@@ -8,40 +8,24 @@
 package opendnsmyip_test
 
 import (
-	"fmt"
 	"testing"
 
-	u "github.com/johnsonjh/opendnsmyip/testutil"
+	u "go.gridfinity.dev/leaktestfe"
 )
 
 func TestLeakVerifyNoneDisabled(
 	t *testing.T,
 ) {
-	err := u.LeakVerifyNone(
+	u.Leakplug(
 		t,
 	)
-	if err != nil {
-		t.Fatal(
-			fmt.Sprintf(
-				"\nopendnsmyip_testutil_test.TestLeakVerifyNoneDisabled.LeakVerifyNone FAILURE:\n	%v",
-				err,
-			),
-		)
 	}
 }
 
 func TestLeakVerifyNoneEnabled(
 	t *testing.T,
 ) {
-	err := u.LeakVerifyNone(
+	u.Leakplug(
 		t,
 	)
-	if err != nil {
-		t.Fatal(
-			fmt.Sprintf(
-				"\nopendnsmyip_testutil_test.TestLeakVerifyNoneEnabled.LeakVerifyNone FAILURE:\n	%v",
-				err,
-			),
-		)
-	}
 }

@@ -4,7 +4,7 @@
 
 - Only the most recent current release is **_SUPPORTED_**.**☨**
 
-  [![GitHubRelease](https://img.shields.io/github/release/johnsonjh/opendnsmyip.svg)](https://github.com/johnsonjh/opendnsmyip/releases/)
+  [![GitHubRelease](https://img.shields.io/github/release/gridfinity/opendnsmyip.svg)](https://github.com/gridfinity/opendnsmyip/releases/)
 
 - **☨** Support is offered on a **best-effort** basis **ONLY**.
 
