@@ -17,6 +17,7 @@ by querying the Cisco OpenDNS servers.
 [![CodeClimateMaintainability](https://api.codeclimate.com/v1/badges/d8e0a5a40404d2153688/maintainability)](https://codeclimate.com/github/gridfinity/opendnsmyip/maintainability)
 [![TickgitTODOs](https://img.shields.io/endpoint?url=https://api.tickgit.com/badge?repo=github.com/gridfinity/opendnsmyip)](https://www.tickgit.com/browse?repo=github.com/gridfinity/opendnsmyip)
 [![DeepSource](https://deepsource.io/gh/gridfinity/opendnsmyip.svg/?label=active+issues)](https://deepsource.io/gh/gridfinity/opendnsmyip/?ref=repository-badge)
+[![DeepScanGrade](https://deepscan.io/api/teams/12184/projects/15166/branches/299578/badge/grade.svg)](https://deepscan.io/dashboard#view=project&tid=12184&pid=15166&bid=299578)
 [![FOSSAStatus](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fgridfinity%2Fopendnsmyip.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2Fgridfinity%2Fopendnsmyip?ref=badge_shield)
 
 ## Availability
