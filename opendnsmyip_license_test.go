@@ -18,7 +18,7 @@ import (
 func TestLicense(
 	t *testing.T,
 ) {
-	defer u.LeakPlug(
+	defer u.Leakplug(
 		t,
 	)
 	licenses := licn.Licenses()

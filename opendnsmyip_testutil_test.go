@@ -19,7 +19,6 @@ func TestLeakVerifyNoneDisabled(
 	u.Leakplug(
 		t,
 	)
-	}
 }
 
 func TestLeakVerifyNoneEnabled(

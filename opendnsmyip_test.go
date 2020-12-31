@@ -10,13 +10,13 @@ package opendnsmyip_test
 import (
 	"testing"
 
-	myip "go.gridfinity.dev/opendnsmyip"
-	u "go.gridfinity.dev/leaktestfe"
 	"github.com/miekg/dns"
+	u "go.gridfinity.dev/leaktestfe"
+	myip "go.gridfinity.dev/opendnsmyip"
 )
 
 func TestGetMyIPAddress(t *testing.T) {
-	defer u.LeakPlug(
+	defer u.Leakplug(
 		t,
 	)
 	_, err := myip.GetMyIP()
@@ -26,7 +26,7 @@ func TestGetMyIPAddress(t *testing.T) {
 }
 
 func TestGenerateClientError(t *testing.T) {
-	defer u.LeakPlug(
+	defer u.Leakplug(
 		t,
 	)
 	config := dns.ClientConfig{Servers: []string{"0.0.0.0"}, Port: "53"}
@@ -41,7 +41,7 @@ func TestGenerateClientError(t *testing.T) {
 }
 
 func TestGenerateLookupError(t *testing.T) {
-	defer u.LeakPlug(
+	defer u.Leakplug(
 		t,
 	)
 	config := dns.ClientConfig{
