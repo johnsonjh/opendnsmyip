@@ -8,7 +8,6 @@ by querying the Cisco OpenDNS servers.
 [![PkgGoDev](https://pkg.go.dev/badge/github.com/gridfinity/opendnsmyip)](https://pkg.go.dev/github.com/gridfinity/opendnsmyip)
 [![GoReportCard](https://goreportcard.com/badge/github.com/gridfinity/opendnsmyip)](https://goreportcard.com/report/github.com/gridfinity/opendnsmyip)
 [![GitHubRelease](https://img.shields.io/github/release/gridfinity/opendnsmyip.svg)](https://github.com/gridfinity/opendnsmyip/releases/)
-[![GitHubTag](https://img.shields.io/github/tag/gridfinity/opendnsmyip.svg)](https://github.com/gridfinity/opendnsmyip/tags/)
 [![LocCount](https://img.shields.io/tokei/lines/github/gridfinity/opendnsmyip.svg)](https://github.com/XAMPPRocky/tokei)
 [![GitHubCodeSize](https://img.shields.io/github/languages/code-size/gridfinity/opendnsmyip.svg)](https://github.com/gridfinity/opendnsmyip)
 [![CoverageStatus](https://coveralls.io/repos/github/gridfinity/opendnsmyip/badge.svg?branch=master)](https://coveralls.io/github/gridfinity/opendnsmyip?branch=master)
