@@ -13,7 +13,7 @@ by querying the Cisco OpenDNS servers.
 [![GitHubCodeSize](https://img.shields.io/github/languages/code-size/gridfinity/opendnsmyip.svg)](https://github.com/gridfinity/opendnsmyip)
 [![CoverageStatus](https://coveralls.io/repos/github/gridfinity/opendnsmyip/badge.svg?branch=master)](https://coveralls.io/github/gridfinity/opendnsmyip?branch=master)
 [![CodacyBadge](https://api.codacy.com/project/badge/Grade/c756d556a38842a5b82265e5f1bebcc1)](https://app.codacy.com/gh/gridfinity/opendnsmyip?utm_source=github.com&utm_medium=referral&utm_content=gridfinity/opendnsmyip&utm_campaign=Badge_Grade)
-[![CodeBeat](https://codebeat.co/badges/f148c0a4-604b-449e-b450-02fb5074a131)](https://codebeat.co/projects/github-com-gridfinity-opendnsmyip-master)
+[![CodebeatBadge](https://codebeat.co/badges/40937670-1418-4a95-92a0-e4c144aef861)](https://codebeat.co/projects/github-com-gridfinity-opendnsmyip-master-4ee973c4-e210-4be1-bb7a-45b89aa0cb70)
 [![CodeClimateMaintainability](https://api.codeclimate.com/v1/badges/d8e0a5a40404d2153688/maintainability)](https://codeclimate.com/github/gridfinity/opendnsmyip/maintainability)
 [![TickgitTODOs](https://img.shields.io/endpoint?url=https://api.tickgit.com/badge?repo=github.com/gridfinity/opendnsmyip)](https://www.tickgit.com/browse?repo=github.com/gridfinity/opendnsmyip)
 [![DeepSource](https://deepsource.io/gh/gridfinity/opendnsmyip.svg/?label=active+issues)](https://deepsource.io/gh/gridfinity/opendnsmyip/?ref=repository-badge)
