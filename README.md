@@ -17,7 +17,7 @@ by querying the Cisco OpenDNS servers.
 [![TickgitTODOs](https://img.shields.io/endpoint?url=https://api.tickgit.com/badge?repo=github.com/gridfinity/opendnsmyip)](https://www.tickgit.com/browse?repo=github.com/gridfinity/opendnsmyip)
 [![DeepSource](https://deepsource.io/gh/gridfinity/opendnsmyip.svg/?label=active+issues)](https://deepsource.io/gh/gridfinity/opendnsmyip/?ref=repository-badge)
 [![DeepScanGrade](https://deepscan.io/api/teams/12184/projects/15166/branches/299578/badge/grade.svg)](https://deepscan.io/dashboard#view=project&tid=12184&pid=15166&bid=299578)
-[![FOSSAStatus](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fgridfinity%2Fopendnsmyip.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2Fgridfinity%2Fopendnsmyip?ref=badge_shield)
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fjohnsonjh%2Fopendnsmyip.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2Fjohnsonjh%2Fopendnsmyip?ref=badge_shield)
 
 ## Availability
 
@@ -48,7 +48,7 @@ This package was inspired by:
 ## License
 
 - [MIT License](https://tldrlegal.com/license/mit-license)
-- [![FOSSASmallStatus](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fgridfinity%2Fopendnsmyip.svg?type=small)](https://app.fossa.com/projects/git%2Bgithub.com%2Fgridfinity%2Fopendnsmyip?ref=badge_small)
+- [![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fjohnsonjh%2Fopendnsmyip.svg?type=small)](https://app.fossa.com/projects/git%2Bgithub.com%2Fjohnsonjh%2Fopendnsmyip?ref=badge_small)
 
 ## Usage
 
@@ -64,9 +64,15 @@ import (
 func main() {
         myIpAddr, err := myip.GetIP()
         if err != nil {
-                fmt.Errorf("Error getting IPv4 address: %v", err)
+                fmt.Errorf(
+                           "Error getting IPv4 address: %v",
+                           err,
+                          )
         } else {
-                fmt.Printf("Public IPv4 address is: %s", myIpAddr)
+                fmt.Printf(
+                           "Public IPv4 address is: %s",
+                           myIpAddr,
+                          )
         }
 }
 ```
