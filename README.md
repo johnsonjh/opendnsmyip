@@ -21,12 +21,24 @@ by querying the Cisco OpenDNS servers.
 
 ## Availability
 
+### Go Modules
+
+- [go.gridfinity.dev](https://go.gridfinity.dev/opendnsmyip)
+- [go.gridfinity.com](https://go.gridfinity.com/)
+
+### Source Code
+
 - [Gridfinity GitLab](https://gitlab.gridfinity.com/go/opendnsmyip)
+- [SourceHut Git](https://sr.ht/~trn/opendnsmyip/)
 - [GitHub](https://github.com/gridfinity/opendnsmyip)
 
-## Security
+## Issue Tracking
 
-- [Security Policy](https://github.com/go/opendnsmyip/blob/master/SECURITY.md)
+- [Gridfinity GitLab](https://gitlab.gridfinity.com/go/opendnsmyip/-/issues)
+
+## Security Policy
+
+- [Security Policy and Vulnerability Reporting](https://gitlab.gridfinity.com/go/opendnsmyip/-/blob/master/SECURITY.md)
 
 ## Original Authors
 
