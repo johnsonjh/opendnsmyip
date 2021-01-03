@@ -4,8 +4,7 @@ go 1.14
 
 require (
 	github.com/miekg/dns v1.1.36-0.20201218191609-23c4faca9d32
-	go.gridfinity.dev/leaktestfe v0.0.0-20210101234129-539e2e8b4621
-	go.uber.org/goleak v1.1.11-0.20200902203756-89d54f0adef2 // indirect
+	go.gridfinity.dev/leaktestfe v0.0.0-20210103150642-9963c3c0f51e
 	go4.org v0.0.0-20201209231011-d4a079459e60
 	golang.org/x/crypto v0.0.0-20201221181555-eec23a3978ad // indirect
 	golang.org/x/net v0.0.0-20201224014010-6772e930b67b // indirect
