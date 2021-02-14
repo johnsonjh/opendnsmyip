@@ -29,7 +29,6 @@ by querying the Cisco OpenDNS servers.
 ### Source Code
 
 - [Gridfinity GitLab](https://gitlab.gridfinity.com/go/opendnsmyip)
-- [SourceHut Git](https://sr.ht/~trn/opendnsmyip/)
 - [GitHub](https://github.com/gridfinity/opendnsmyip)
 
 ## Issue Tracking
