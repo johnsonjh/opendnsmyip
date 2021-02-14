@@ -1,8 +1,5 @@
-// Copyright 2021 Jeffrey H. Johnson.
-// Copyright 2021 Gridfinity, LLC.
-// Copyright 2012 The Go Authors.
-//
-// All rights reserved.
+// Copyright (c) 2021 Gridfinity, LLC.
+// Copyright (c) 2012 The Go Authors.
 //
 // Use of this source code is governed by the BSD-style
 // license that can be found in the leaktestfe/LICENSE file.
