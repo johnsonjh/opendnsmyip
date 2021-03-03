@@ -1,13 +1,14 @@
-// Copyright (c) 2021 Gridfinity, LLC.
-// Copyright (c) 2020 Dmitriy Kuznetsov.
-// Copyright (c) 2016 James Polera.
+// Copyright © 2021 Jeffrey H. Johnson <trnsz@pobox.com>
+// Copyright © 2021 Gridfinity, LLC.
+// Copyright © 2020 Dmitriy Kuznetsov.
+// Copyright © 2016 James Polera.
 //
 // All rights reserved.
 //
 // Use of this source code is governed by the MIT
 // license that can be found in the LICENSE file.
 
-package opendnsmyip // import "go.gridfinity.dev/opendnsmyip"
+package opendnsmyip
 
 import (
 	"fmt"
@@ -76,6 +77,6 @@ func MyIPDNSLookup(
 func init() {
 	// Regiser licensing
 	opendnsmyipLegal.RegisterLicense(
-		"\nThe MIT License (MIT)\n\nCopyright (c) 2021 Gridfinity, LLC.\nCopyright (c) 2020 Dmitriy Kuznetsov.\nCopyright (c) 2016 James Polera.\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all\ncopies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\nSOFTWARE.\n",
+		"\nThe MIT License (MIT)\n\nCopyright (c) 2021 Jeffrey H. Johnson <trnsz@pobox.com>.\nCopyright (c) 2021 Gridfinity, LLC.\nCopyright (c) 2020 Dmitriy Kuznetsov.\nCopyright (c) 2016 James Polera.\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all\ncopies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\nSOFTWARE.\n",
 	)
 }

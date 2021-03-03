@@ -1,6 +1,7 @@
-// Copyright (c) 2021 Gridfinity, LLC.
-// Copyright (c) 2020 Dmitriy Kuznetsov.
-// Copyright (c) 2016 James Polera.
+// Copyright © 2021 Jeffrey H. Johnson. <trnsz@pobox.com>
+// Copyright © 2021 Gridfinity, LLC.
+// Copyright © 2020 Dmitriy Kuznetsov.
+// Copyright © 2016 James Polera.
 //
 // Use of this source code is governed by the MIT
 // license that can be found in the LICENSE file.
@@ -11,8 +12,8 @@ import (
 	"testing"
 
 	"github.com/miekg/dns"
-	u "go.gridfinity.dev/leaktestfe"
-	myip "go.gridfinity.dev/opendnsmyip"
+	u "github.com/johnsonjh/leaktestfe"
+	myip "github.com/johnsonjh/opendnsmyip"
 )
 
 func TestGetMyIPAddress(t *testing.T) {

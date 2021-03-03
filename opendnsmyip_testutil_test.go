@@ -1,5 +1,6 @@
-// Copyright 2021 Gridfinity, LLC.
-// Copyright 2020 The Go Authors.
+// Copyright © 2021 Jeffrey H. Johnson. <trnsz@pobox.com>
+// Copyright © 2021 Gridfinity, LLC.
+// Copyright © 2020 The Go Authors.
 //
 // All rights reserved.
 //
@@ -11,7 +12,7 @@ package opendnsmyip_test
 import (
 	"testing"
 
-	u "go.gridfinity.dev/leaktestfe"
+	u "github.com/johnsonjh/leaktestfe"
 )
 
 func TestLeakVerifyNoneDisabled(

@@ -1,16 +1,17 @@
-// Copyright (c) 2021 Gridfinity, LLC.
-// Copyright (c) 2012 The Go Authors.
+// Copyright © 2021 Jeffrey H. Johnson <trnsz@pobox.com>.
+// Copyright © 2021 Gridfinity, LLC.
+// Copyright © 2012 The Go Authors.
 //
 // Use of this source code is governed by the BSD-style
 // license that can be found in the leaktestfe/LICENSE file.
 
-package opendnsmyip // import "go.gridfinity.dev/opendnsmyip"
+package opendnsmyip
 
 import (
 	"fmt"
 	"testing"
 
-	u "go.gridfinity.dev/leaktestfe"
+	u "github.com/johnsonjh/leaktestfe"
 	licn "go4.org/legal"
 )
 
