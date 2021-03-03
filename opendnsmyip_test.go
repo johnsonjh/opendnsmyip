@@ -11,9 +11,9 @@ package opendnsmyip_test
 import (
 	"testing"
 
-	"github.com/miekg/dns"
 	u "github.com/johnsonjh/leaktestfe"
 	myip "github.com/johnsonjh/opendnsmyip"
+	"github.com/miekg/dns"
 )
 
 func TestGetMyIPAddress(t *testing.T) {
