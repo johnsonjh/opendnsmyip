@@ -1,0 +1,3 @@
+*.sh linguist-vendored
+.sh linguist-vendored
+cov_report.sh linguist-vendored
