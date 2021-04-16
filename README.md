@@ -1,12 +1,14 @@
 # opendnsmyip
 
-A Go package that returns the public-facing IPv4 address of the client
-by querying the Cisco OpenDNS servers.
+A Go package that returns the public-facing IPv4 address of the client by
+querying the Cisco OpenDNS servers.
 
 ## Original Authors
 
-- [James Polera](https://github.com/polera/publicip) \<[james@uncryptic.com](mailto:james@uncryptic.com)\>
-- [Dmitriy Kuznetsov](https://github.com/Dikman/publicip) \<[dmitriy.v.kuznetsov@gmail.com](mailto:dmitriy.v.kuznetsov@gmail.com)\>
+- [James Polera](https://github.com/polera/publicip)
+  \<[james@uncryptic.com](mailto:james@uncryptic.com)\>
+- [Dmitriy Kuznetsov](https://github.com/Dikman/publicip)
+  \<[dmitriy.v.kuznetsov@gmail.com](mailto:dmitriy.v.kuznetsov@gmail.com)\>
 
 ## Credits
 
