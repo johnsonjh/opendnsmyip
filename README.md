@@ -1,5 +1,7 @@
 # opendnsmyip
 
+[![GRC](https://goreportcard.com/badge/github.com/johnsonjh/opendnsmyip)](https://goreportcard.com/badge/github.com/johnsonjh/opendnsmyip)
+
 A Go package that returns the public-facing IPv4 address of the client by
 querying the Cisco OpenDNS servers.
 
