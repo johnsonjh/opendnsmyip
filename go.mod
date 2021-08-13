@@ -9,8 +9,9 @@ require (
 )
 
 require (
-	go.uber.org/goleak v1.1.11-0.20210525221708-d36f3aede898 // indirect
-	golang.org/x/net v0.0.0-20210805182204-aaa1db679c0d // indirect
-	golang.org/x/sys v0.0.0-20210630005230-0f9fa26af87c // indirect
-	golang.org/x/tools v0.1.6-0.20210804210322-f367f012d549 // indirect
+	go.uber.org/goleak v1.1.11-0.20210813005559-691160354723 // indirect
+	golang.org/x/net v0.0.0-20210813160813-60bc85c4be6d // indirect
+	golang.org/x/sync v0.0.0-20210220032951-036812b2e83c // indirect
+	golang.org/x/sys v0.0.0-20210809222454-d867a43fc93e // indirect
+	golang.org/x/tools v0.1.6-0.20210813165731-45389f592fe9 // indirect
 )
