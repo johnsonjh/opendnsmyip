@@ -4,14 +4,14 @@ go 1.17
 
 require (
 	github.com/johnsonjh/leaktestfe v0.0.0-20230308203709-32b9101894df
-	github.com/miekg/dns v1.1.55
+	github.com/miekg/dns v1.1.56
 	go4.org v0.0.0-20230225012048-214862532bf5
 )
 
 require (
 	go.uber.org/goleak v1.2.1 // indirect
-	golang.org/x/mod v0.9.0 // indirect
-	golang.org/x/net v0.8.0 // indirect
-	golang.org/x/sys v0.6.0 // indirect
-	golang.org/x/tools v0.7.1-0.20230308011436-dd1e2f66b242 // indirect
+	golang.org/x/mod v0.12.0 // indirect
+	golang.org/x/net v0.15.0 // indirect
+	golang.org/x/sys v0.12.0 // indirect
+	golang.org/x/tools v0.13.0 // indirect
 )
