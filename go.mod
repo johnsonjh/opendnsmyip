@@ -4,7 +4,7 @@ go 1.22.0
 
 require (
 	github.com/johnsonjh/leaktestfe v0.0.0-20241023172206-258a63d8b8de
-	github.com/miekg/dns v1.1.63-0.20240909151611-b77d1ed8e928
+	github.com/miekg/dns v1.1.63
 	go4.org v0.0.0-20201209231011-d4a079459e60
 )
 
