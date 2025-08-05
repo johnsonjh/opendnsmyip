@@ -6,7 +6,7 @@ toolchain go1.24.1
 
 require (
 	github.com/johnsonjh/leaktestfe v0.0.0-20241023172206-258a63d8b8de
-	github.com/miekg/dns v1.1.67
+	github.com/miekg/dns v1.1.68
 	go4.org v0.0.0-20201209231011-d4a079459e60
 )
 
