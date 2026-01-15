@@ -6,15 +6,15 @@ toolchain go1.24.1
 
 require (
 	github.com/johnsonjh/leaktestfe v0.0.0-20241023172206-258a63d8b8de
-	github.com/miekg/dns v1.1.69
+	github.com/miekg/dns v1.1.70
 	go4.org v0.0.0-20201209231011-d4a079459e60
 )
 
 require (
 	go.uber.org/goleak v1.3.1-0.20241121203838-4ff5fa6529ee // indirect
-	golang.org/x/mod v0.30.0 // indirect
-	golang.org/x/net v0.47.0 // indirect
-	golang.org/x/sync v0.18.0 // indirect
-	golang.org/x/sys v0.38.0 // indirect
-	golang.org/x/tools v0.39.0 // indirect
+	golang.org/x/mod v0.31.0 // indirect
+	golang.org/x/net v0.48.0 // indirect
+	golang.org/x/sync v0.19.0 // indirect
+	golang.org/x/sys v0.39.0 // indirect
+	golang.org/x/tools v0.40.0 // indirect
 )
